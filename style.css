@@ -7,7 +7,7 @@
 
 body {
   height: 100vh;
-  background-color: #cdc2f3;
+  background-color: #e2dff3;
   color: #000;
 }
 
@@ -59,13 +59,13 @@ header {
 }
 
 .habit {
-  height: 64px;
-  width: 64px;
+  height: 45px;
+  width: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
 
-  font-size: 32px;
+  font-size: 25px;
 }
 
 .days {
@@ -84,7 +84,7 @@ header {
   margin-bottom: 8px;
 
   font-family: "Roboto Mono";
-  font-size: 20px;
+  font-size: 18px;
   line-height: 125%;
   text-align: center;
 
@@ -95,12 +95,12 @@ input {
   appearance: none;
   -webkit-appearance: none;
 
-  height: 64px;
-  width: 64px;
+  height: 45px;
+  width: 45px;
 
-  border: 2px solid #27272a;
+  border: 2px solid #b2b2f3;
   border-radius: 8px;
-  background-color: #faf8ed;
+  background-color: #babaeb;
 
   cursor: pointer;
 }
@@ -112,6 +112,20 @@ input:hover {
 input:checked {
   background-color: #8b5cf6;
   border: 2px solid #a78bfa;
+}
+
+footer {
+  margin-top: 60px;
+  text-align: center;
+
+  font-family: 'Roboto Mono';
+  font-size: 9px;
+  color: #3e3e41;
+}
+
+footer a {
+  text-decoration:none;
+  color: #000;
 }
 
 @media (max-width: 570px) {
