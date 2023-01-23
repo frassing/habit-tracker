@@ -10,8 +10,10 @@
 ---
 
 <p align="center">
+  ✨ Projeto:
+  <img alt="projeto Habits" src=".github/projetofinalPreview.jpg" width="100%">
   ✨ Projeto base:
-  <img alt="projeto Habits" src=".github/preview.png" width="100%">
+  <img alt="projeto Habits Original Rocketseat" src=".github/preview.png" width="100%">
 </p>
 
 ## Tecnologias
